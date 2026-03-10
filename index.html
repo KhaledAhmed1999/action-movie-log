@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Movie Log</title>
+    <p class="subtitle">Track your favorite action movies</p>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Action Movie Log</h1>
+
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="Search movies..." onkeyup="searchMovies()">
+        <br>
+        <input type="text" id="movieInput" placeholder="Enter movie name">
+        <button onclick="addMovie()">Add Movie</button>
+
+        <ul id="movieList"></ul>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
